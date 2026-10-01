@@ -14,7 +14,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract Android project ZIP
-        run: |
+        run: |- name: Extract Android project ZIP
+  run: |
+    rm -rf build_project
+    mkdir build_project
+    unzip -q SAMEER_FITFULE_FINAL_BUILD2.zip -d build_project
           rm -rf build_project
           mkdir build_project
           SAMEER_FITFULE_FINAL_BUILD2.zip

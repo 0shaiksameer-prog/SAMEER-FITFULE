@@ -17,7 +17,7 @@ jobs:
         run: |
           rm -rf build_project
           mkdir build_project
-          unzip -q SAMEER_FITFULE_FINAL_BUILD2.zip -d build_project
+          unzip -q SAMEER_FITFULE_BUILD2_FIXED.zip -d build_project
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
